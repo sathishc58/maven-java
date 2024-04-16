@@ -3,7 +3,7 @@ name: Job workflow
 on:
   push:
     branches:
-    - 'master'
+    - 'master2'
 
 jobs:
   job1:

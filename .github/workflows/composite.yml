@@ -1,0 +1,13 @@
+name: Job workflow
+
+on:
+  push:
+    branches:
+    - 'master3'
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: retrieve output
+      uses: ./library 

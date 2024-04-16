@@ -1,0 +1,11 @@
+name: Test composite with matrix strategy
+
+runs:
+  using: composite
+  strategy:
+    matrix:
+      os_version = [ 10, 12 ]
+  steps:
+    - name: Test matrix strategy
+      run: echo "OS Version is ${{ matrix.os_version }}
+      

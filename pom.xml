@@ -22,6 +22,10 @@ xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0 http://maven.apache.org/
       <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
       <java.version>1.8</java.version>
       <tomcat.version>9.0.37</tomcat.version>
+
+     <sonar.login>admin</sonar.login>
+     <sonar.password>password</sonar.password>
+
    </properties>
 
    <dependencies>
